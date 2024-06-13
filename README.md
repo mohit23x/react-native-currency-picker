@@ -12,11 +12,11 @@ Added renderChildrenStyle prop and text slicing for long country names
 
 ## Getting started
 
-`$ npm install @raiden-16f7/react-native-currency-picker --save`
+`$ npm install @raiden16f7/react-native-currency-picker --save`
 <br>
 OR
 <br>
-`$ yarn add @raiden-16f7/react-native-currency-picker`
+`$ yarn add @raiden16f7/react-native-currency-picker`
 
 ## Example
 
@@ -132,7 +132,7 @@ currencyPickerRef.close();
 | symbolStyle (Object)       | style       | Style for currency symbol         |
 | symbolNativeStyle (Object) | style       | Style for currency native symbol  |
 
-## renderChilderStyle
+## renderChildrenStyle
 
 | Props              | Default | Options/Info                   |
 | ------------------ | ------- | ------------------------------ |
