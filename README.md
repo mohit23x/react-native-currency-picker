@@ -2,17 +2,21 @@
 
 **Various currency picker** for **iOS** and **Android**
 
+## Changes from original version
+
+Added renderChildrenStyle prop and text slicing for long country names
+
 ## Demo
 
 <img src="https://github.com/alien9996/library-gif/blob/main/courrency_gif.gif?raw=true" width="350">
 
 ## Getting started
 
-`$ npm install react-native-currency-picker --save`
+`$ npm install @raiden-16f7/react-native-currency-picker --save`
 <br>
 OR
 <br>
-`$ yarn add react-native-currency-picker`
+`$ yarn add @raiden-16f7/react-native-currency-picker`
 
 ## Example
 
