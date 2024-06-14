@@ -4,7 +4,15 @@
 
 ## Changes from original version
 
-Added renderChildrenStyle prop and text slicing for long country names
+++ Added renderChildrenStyle prop and text slicing for long country names
+
+++ Added prop for modal animation
+
+++ Changed background color to #FAFAFF
+
+++ StatusBar not hidden on Android
+
+++ container padding adjusted for android
 
 ## Demo
 
@@ -114,12 +122,13 @@ currencyPickerRef.close();
 
 ## modalStyle
 
-| Props                | Default | Options/Info                                                          |
-| -------------------- | ------- | --------------------------------------------------------------------- |
-| container (Object)   | style   | Style for modal container                                             |
-| searchStyle (Object) | style   | Style for modal search input                                          |
-| tileStyle (Object)   | style   | Style for modal title                                                 |
-| itemStyle (Object)   | style   | Style for item select currency <br> **Note**: See more details below. |
+| Props                          | Default | Options/Info                                                          |
+| ------------------------------ | ------- | --------------------------------------------------------------------- |
+| container (Object)             | style   | Style for modal container                                             |
+| modalAnimation (animationType) | slide   | Modal opening/closing animation type                                  |
+| searchStyle (Object)           | style   | Style for modal search input                                          |
+| tileStyle (Object)             | style   | Style for modal title                                                 |
+| itemStyle (Object)             | style   | Style for item select currency <br> **Note**: See more details below. |
 
 ## itemStyle
 

@@ -32,6 +32,7 @@ export const CurrencyPicker = (props) => {
 
 		containerStyle = {},
 		modalStyle = {},
+		modalAnimation = "slide",
 		renderChildrenStyle = {},
 
 		title,
@@ -132,7 +133,7 @@ export const CurrencyPicker = (props) => {
 					)}
 				</TouchableOpacity>
 			) : null}
-			<Modal visible={visible}>
+			<Modal animationType={modalAnimation} visible={visible}>
 				<DialogCurrency
 					onSelectItem={(data) => {
 						onSelect(data);

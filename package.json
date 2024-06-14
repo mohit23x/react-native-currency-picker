@@ -1,6 +1,6 @@
 {
 	"name": "@raiden16f7/react-native-currency-picker",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"author": "Raiden-16F7",
 	"license": "MIT",
 	"description": "React native library country picker",
