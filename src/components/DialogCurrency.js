@@ -46,17 +46,10 @@ export const DialogCurrency = (props) => {
 	} = itemStyle;
 
 	useEffect(() => {
-		if (Platform.OS === "android") {
-			StatusBar.setHidden(false);
-			return () => {
-				setSearch("");
-			};
-		} else {
-			StatusBar.setHidden(true);
-			return () => {
-				setSearch("");
-			};
-		}
+		StatusBar.setHidden(false);
+		return () => {
+			setSearch("");
+		};
 	}, []);
 
 	const styles = getStyles(darkMode);
