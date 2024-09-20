@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/Raiden-16F7/react-native-currency-picker.git#readme",
   "peerDependencies": {
-    "react-native": "^0.71.11",
-    "react-native-windows": "0.71.5"
+    "react-native": "*",
+    "react-native-windows": "*"
   },
   "dependencies": {
     "fuse.js": "^7.0.0",
